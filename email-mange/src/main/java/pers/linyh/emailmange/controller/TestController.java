@@ -19,7 +19,8 @@ public class TestController {
 
     @RequestMapping()
     public String test(Model model) {
-        model.addAttribute("products", "456");
+        model.addAttribute("aa","cc");
+        model.addAttribute("products", "林彝铧");
         return "/login";
     }
 

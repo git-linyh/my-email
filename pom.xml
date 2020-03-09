@@ -12,7 +12,7 @@
     <description>email service</description>
 
     <modules>
-        <module>email-mange</module>
+        <module>email-manage</module>
     </modules>
 
     <parent>
@@ -37,7 +37,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.18</version>
+            <version>1.18.12</version>
         </dependency>
 
         <dependency>

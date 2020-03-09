@@ -14,3 +14,7 @@ spring:
     prefix: classpath:/templates/
     suffix: .html
 
+mybatis:
+  type-aliases-package: pers.linyh.emailmanage.entity
+  mapper-locations: classpath:mybatis/**/*.xml
+

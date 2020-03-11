@@ -1,255 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f77c26-45c2-41c4-8a28-2e56bf476e21" name="Default Changelist" comment="整合mybatis-plus&#10;Druid">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0c018e7e-321c-4191-b7b0-7a2478b915fc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0c018e7e-321c-4191-b7b0-7a2478b915fc/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/email-manage.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/src/main/java/pers/linyh/emailmanage/controller/TestTableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/src/main/java/pers/linyh/emailmanage/entity/TestTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/src/main/java/pers/linyh/emailmanage/mapper/TestTableMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/src/main/java/pers/linyh/emailmanage/service/ITestTableService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/src/main/java/pers/linyh/emailmanage/service/impl/TestTableServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/src/main/resources/mybatis/TestTableMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/META-INF/email-manage.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/mybatis/TestTableMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmanage/EmailManageApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmanage/common/CodeGenerator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmanage/common/CodeGenerator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmanage/common/CodeGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmanage/config/DruidConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmanage/controller/TestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmanage/controller/TestTableController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmanage/entity/TestTable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmanage/mapper/TestTableMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmanage/service/ITestTableService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmanage/service/impl/TestTableServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmange/EmailMangeApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmange/common/CodeGenerator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmange/common/CodeGenerator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmange/common/CodeGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmange/config/DruidConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/pers/linyh/emailmange/controller/TestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/images/aiwrap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/static/plugins/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/classes/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/test-classes/pers/linyh/emailmanage/EmailManageApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-manage/target/test-classes/pers/linyh/emailmange/EmailMangeApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-email.iml" afterDir="false" />
+    <list default="true" id="e5f77c26-45c2-41c4-8a28-2e56bf476e21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/email-manage/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-manage/email-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/email-manage/email-manage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-email.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,8 +168,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.CodeGenerator" />
-      <item itemvalue="Spring Boot.manage" />
       <item itemvalue="JUnit.EmailManageApplicationTests.testSelect" />
+      <item itemvalue="Spring Boot.manage" />
     </list>
     <recent_temporary>
       <list>
@@ -443,7 +201,8 @@
       <option name="presentableId" value="Default" />
       <updated>1583720355053</updated>
       <workItem from="1583720364548" duration="3800000" />
-      <workItem from="1583724223057" duration="2997000" />
+      <workItem from="1583724223057" duration="3036000" />
+      <workItem from="1583890850322" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="整合mybatis-plus&#10;Druid">
       <created>1583727950302</created>
@@ -452,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583727950302</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="整合mybatis-plus&#10;Druid">
+      <created>1583728114969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583728114969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,46 +241,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="681" y="83" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583724314772" />
-    <state x="275" y="121" key="CommitChangelistDialog2" timestamp="1583728100008">
+    <state x="275" y="121" key="CommitChangelistDialog2" timestamp="1583728112975">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="275" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1583728100008" />
+    <state x="275" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1583728112975" />
     <state width="242" height="189" key="DatabaseViewActions_Filter" timestamp="1583722800340">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="242" height="189" key="DatabaseViewActions_Filter/0.0.1920.1050@0.0.1920.1050" timestamp="1583722800340" />
-    <state width="1876" height="346" key="GridCell.Tab.0.bottom" timestamp="1583726292312">
+    <state width="1876" height="346" key="GridCell.Tab.0.bottom" timestamp="1583892264632">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583726292312" />
-    <state width="1876" height="346" key="GridCell.Tab.0.center" timestamp="1583726292312">
+    <state width="1876" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583892264632" />
+    <state width="1876" height="346" key="GridCell.Tab.0.center" timestamp="1583892264632">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="346" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583726292312" />
-    <state width="1876" height="346" key="GridCell.Tab.0.left" timestamp="1583726292312">
+    <state width="1876" height="346" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583892264632" />
+    <state width="1876" height="346" key="GridCell.Tab.0.left" timestamp="1583892264632">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="346" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583726292312" />
-    <state width="1876" height="346" key="GridCell.Tab.0.right" timestamp="1583726292312">
+    <state width="1876" height="346" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583892264632" />
+    <state width="1876" height="346" key="GridCell.Tab.0.right" timestamp="1583892264632">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="346" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583726292312" />
-    <state width="1876" height="346" key="GridCell.Tab.1.bottom" timestamp="1583726292198">
+    <state width="1876" height="346" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583892264632" />
+    <state width="1876" height="346" key="GridCell.Tab.1.bottom" timestamp="1583892264632">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583726292198" />
-    <state width="1876" height="346" key="GridCell.Tab.1.center" timestamp="1583726292198">
+    <state width="1876" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583892264632" />
+    <state width="1876" height="346" key="GridCell.Tab.1.center" timestamp="1583892264632">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="346" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583726292198" />
-    <state width="1876" height="346" key="GridCell.Tab.1.left" timestamp="1583726292198">
+    <state width="1876" height="346" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583892264632" />
+    <state width="1876" height="346" key="GridCell.Tab.1.left" timestamp="1583892264632">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="346" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583726292198" />
-    <state width="1876" height="346" key="GridCell.Tab.1.right" timestamp="1583726292198">
+    <state width="1876" height="346" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583892264632" />
+    <state width="1876" height="346" key="GridCell.Tab.1.right" timestamp="1583892264632">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="346" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583726292198" />
+    <state width="1876" height="346" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583892264632" />
     <state width="1876" height="346" key="GridCell.Tab.2.bottom" timestamp="1583724421395">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -535,9 +301,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="463" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1583720809121" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1583727952550">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1583728116516">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1583727952550" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1583728116516" />
   </component>
 </project>

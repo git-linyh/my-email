@@ -9,12 +9,17 @@ spring:
     mode: LEGACYHTML5
     #mode: HTML5
     encoding: UTF-8
-    content-type: text/html
     cache: false
     prefix: classpath:/templates/
     suffix: .html
+    servlet:
+      content-type: text/html
+  security:
+    user:
+      name: admin
+      password: 123456
+      roles: admin
 
-mybatis:
+mybatis-plus:
   type-aliases-package: pers.linyh.emailmanage.entity
   mapper-locations: classpath:mybatis/**/*.xml
-
